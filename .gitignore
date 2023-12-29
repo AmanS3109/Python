@@ -1,1 +1,65 @@
-* .csv
+# Ignore compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore temporary files
+*~
+*.swp
+*.bak
+
+# Ignore log files
+*.log
+
+# Ignore Eclipse project files
+.metadata/
+
+# Ignore IntelliJ IDEA project files
+.idea/
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore Python virtual environment
+venv/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore editor-specific files
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.user
+*.sln
+*.swp
+
+# Ignore Jekyll build directory
+_site/
+
+# Ignore generated files
+/dist/
+/build/
+*.min.*
+
+# Ignore environment files
+.env
+
+# Ignore local configuration files
+config/local/
+
+# Ignore database files
+*.sqlite
+*.db
+*.db-journal
+
+# Ignore CSV files
+*.csv
